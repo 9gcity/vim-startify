@@ -64,13 +64,21 @@ function! startify#fortune#predefined_quotes() abort
 endfunction
 
 " Variables {{{1
-let s:cow = [
-      \ '       o',
-      \ '        o   ^__^',
-      \ '         o  (oo)\_______',
-      \ '            (__)\       )\/\',
-      \ '                ||----w |',
-      \ '                ||     ||',
+let s:cow = [               '_      _'
+      \ '                   (c\-.--/a)                                        '
+      \ '                    |q: p   /\_            _____                     '
+      \ '                  __\(_/  ).'  '---._.---'`     '---.__              '
+      \ '                 /  (Y_)_/             /        : \-._ \             '
+      \ '         !!!!,,, \_))'-';             (       _/   \  '\\_           '
+      \ '        !!II!!!!!IIII,, \_             \     /      \_  '.\          '
+      \ '         !IIsndIIIII!!!!,,\     /_      \   |----.___ '-. \'.__      '
+      \ '         !!!IIIIIIIIIIIIIIII\   | '--._.-'  _)       \  |  `'--'     '
+      \ '             '''!!!!IIIIIII/   .',, ((___.-'         / /             '
+      \ '                   '''!!!!/  _/!!!!IIIIIII!!!!!,,,,,;,;,,,.....      '
+      \ '                         | /IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII      '
+      \ '                         | \   ''IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII   '
+      \ '                         \_,)     '''''!!!!IIIIIIIIIIIIIIII!!!!!!!!  '
+      \ '                                           ''''''''''!!!!!!!!!!!!!!! '
       \ ]
 
 let g:startify_fortune_use_unicode = &encoding == 'utf-8' && get(g:, 'startify_fortune_use_unicode')
